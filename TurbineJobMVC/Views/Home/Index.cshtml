@@ -3,9 +3,9 @@
     ViewData["Title"] = "فرم ارسال درخواست خدمات رایانه ای";
 }
 <div class="mt-2">
-    <div class="container ">
+    <div class="container">
         <div class="row">
-            <div class="col-sm-6">
+            <div class="col-md-6 col-sm-12 mt-2">
                 <div class="card shadow p-1 mb-5 rounded helpinfo cardop">
                     <div class="card-body  " >
                         <form asp-controller="Home" asp-action="index" asp-antiforgery="true" method="post">
@@ -52,12 +52,13 @@
                                              asp-text-box-template="<div class='input-group '><span class='input-group-prepend '><span class='input-group-text '><i class='fas fa-lock fa-lg'></i></span></span>{0}</div>"
                                              asp-validation-message-class="text-danger" asp-refresh-button-class="btn-sm refreshcaptcha" />
                             </div>
-                            <button type="submit" class="btn btnStyle btn-lg btn-block mt-3"><i class='fab fa-telegram-plane fa-lg'></i>&ensp; ارسال درخواست</button>
+                            <button type="submit" class="btn btnStyle btn-lg btn-block mt-3"><i class='fas fa-paper-plane fa-lg'></i>&ensp; ارسال درخواست</button>
                         </form>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 d-none d-sm-block">
+
+            <div class="col-md-6 col-sm-12 d-none d-sm-block mt-2">
                 <div class="card shadow p-1 mb-5 rounded helpinfo helpop">
                     <div class="card-header text-center align-middle">
                         <h4>راهنما</h4>
@@ -73,12 +74,11 @@
                                 <li class="card-text">جهت ثبت درخواست لوازم مصرفی از اموال تحت اختیار استفــاده نمائید.   مثال : جهت دریافت کارتریج از اموال چاپگر و جهت دریافت ماوس از اموال رایانه استفاده نمائید.</li>
                             </ol>
                         </div>
-                        <div class="row">
-                            <footer class="text-center card-footer font-weight-bold">
-                                <span> مدیریت تعمیرات تجهیزات صنعتی و ماشین آلات فرایندی - سال 1398 </span><br /><span>طراحی و توسعه توسط :</span><br /><span> <b>ناهید منجزی ، مهدی سلیمانیان</b></span>
-                            </footer>
+                        <div class="row d-none d-md-block">
+                            <div class="text-center special-footer font-weight-bold">
+                                <span> مدیریت تعمیرات تجهیزات صنعتی و ماشین آلات فرایندی - سال 1398 </span><br /><span>طراحی و توسعه توسط :</span><br /><span> <mark><b>ناهید منجزی، مهدی سلیمانیان، محمد مهرنیا</b></mark></span>
+                            </div>
                         </div>
-
                     </div>
                 </div>
             </div>

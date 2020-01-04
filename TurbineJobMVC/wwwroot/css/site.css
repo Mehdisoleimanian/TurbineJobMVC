@@ -25,27 +25,23 @@ body {
 ::-webkit-input-placeholder {
     color: #c7c5c5 !important;
     direction: rtl !important;
-    text-overflow: ellipsis;
 }
 
 :-moz-placeholder { /* Firefox 18- */
     color: #c7c5c5 !important;
     direction: rtl !important;
     text-align: right;
-    text-overflow: ellipsis;
 }
 
 ::-moz-placeholder { /* Firefox 19+ */
     color: #c7c5c5 !important;
     direction: rtl !important;
     text-align: right;
-    text-overflow: ellipsis;
 }
 
 :-ms-input-placeholder {
     color: #c7c5c5 !important;
     direction: rtl !important;
-    text-overflow: ellipsis;
 }
 .menu {
     color: #0026ff !important;
@@ -54,14 +50,13 @@ body {
 .ltr{
     direction:ltr !important;
 }
-footer {
+.special-footer {
     width: 100% !important;
     opacity: 0.9;
     border-radius: 5px;
     position: absolute;
     right: 0;
-    bottom: 0;
-    background-color: transparent;
+    bottom:4px;
 }
 
 .refreshcaptcha::before {
@@ -77,7 +72,7 @@ footer {
 }
 
 .trackCSS{
-    opacity:0.7;
+    opacity:0.9;
     color:#6f0e0e;
 }
 
@@ -102,10 +97,10 @@ ol li {
     line-height:30px;
 }
 .cardop {
-    background-color: rgba(255,255,255,0.75) !important;
+    background-color: rgba(255,255,255,0.9) !important;
 }
 .helpop {
-    background-color: rgba(248, 248, 248, 0.75) !important;
+    background-color: rgba(248, 248, 248, 0.9) !important;
 }
 
 
